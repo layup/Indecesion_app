@@ -1,2 +1,2 @@
 # Indecesion_app
-An application that helps you decide on a result based on your inputs 
+An application that helps you decide what to do for those indecisive people out there 
