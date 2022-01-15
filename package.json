@@ -1,5 +1,5 @@
 {
-  "name": "indecesion_app",
+  "name": "indecision_app",
   "version": "1.0.0",
   "description": "An application that helps you decide what to do! An application for those indecisive people out there!",
   "main": "index.js",
@@ -7,31 +7,39 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/layup/Indecesion_app.git"
+    "url": "git+https://github.com/layup/indecision_app.git"
   },
   "author": "Tommy Lay",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/layup/Indecesion_app/issues"
+    "url": "https://github.com/layup/indecision_app/issues"
   },
-  "homepage": "https://github.com/layup/Indecesion_app#readme",
+  "homepage": "https://github.com/layup/indecision_app#readme",
   "dependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.5.2",
-    "babel-preset-react": "^6.24.1",
-    "live-server": "^1.2.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-modal": "^3.14.4",
-    "validator": "^10.8.0",
-    "webpack": "^3.1.0",
-    "webpack-dev-server": "^2.5.1"
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^5.2.6",
+    "node-sass": "^6.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-modal": "^3.14.3",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.66.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^26.6.3",
+    "jest-enzyme": "^7.1.2",
+    "webpack-cli": "^4.7.2"
   }
 }
