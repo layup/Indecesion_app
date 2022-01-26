@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/layup/indecision_app/issues"
   },
-  "homepage": "https://github.com/layup/indecision_app/public/index.html",
+  "homepage": "http://tommylay.com/indecision_app/",
   "dependencies": {
     "@babel/core": "^7.16.7",
     "@babel/plugin-proposal-class-properties": "^7.14.5",
