@@ -2,6 +2,7 @@
 
 An application that helps you decide what to do! An application for those indecisive people out there!
 
+Preview the application at http://tommylay.com/indecision_app/ 
 
 ### Installation  
 
