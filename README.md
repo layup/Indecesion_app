@@ -7,4 +7,4 @@ An application that helps you decide what to do! An application for those indeci
 
 In the root directoy, run the command 'yarn install' in the terminal to install the depdencies 
 
-### Application Screenshoots 
+### Application Screenshots 
